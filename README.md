@@ -79,7 +79,17 @@ Angular Frontend:
 ### 1️⃣ Configure Database
 Update `application.properties` with your Oracle DB credentials:
 
-```properties
+##properties
+
 spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+
+## Build and Run Backend
+
+mvn clean install
+mvn spring-boot:run
+
+
+
+
